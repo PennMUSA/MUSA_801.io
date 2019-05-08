@@ -1,0 +1,28 @@
+html,body {
+  height:100%;min-width:500px;
+  max-height:100%;
+  line-height:1.2rem;
+}
+
+th {padding-bottom:0.5rem !important;}
+
+table,.dataTables_wrapper {width:100%;}
+
+tr,td {background-color: initial !important;}
+tr:hover,tr.hover {background-color: #eee !important;}
+.title, tbody tr {cursor:pointer;}
+
+#threshold>div {margin-top:1rem;}
+
+.sidebar .row {margin:0;padding:1rem 1rem 0 1rem; display:flex;}
+.row.catchments,.row.parcels {overflow:auto;}
+
+.legend {
+  background: white;
+  padding:1rem;
+}
+.legend i {
+  display:inline-block;
+  width:1rem;
+  height:1rem;
+}
