@@ -2,3 +2,4 @@ node_modules
 .Rproj.user
 .Rhistory
 MUSA_801.io.Rproj
+.DS_Store
